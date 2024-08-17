@@ -21,7 +21,7 @@ import {
       .then((userCredential) => {
         const user = userCredential.user;
         console.log(user);
-        window.location = "home.html";
+        window.location = "dashbord.html";
       })
       .catch((error) => {
         const errorMessage = error.message;
